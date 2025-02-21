@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 刘书宁
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Shuning Liu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Shuning
+last_name: Liu
 
 # Status emoji
 status:
@@ -20,27 +20,27 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: HKUST(GZ)
+    url: https://www.hkust-gz.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:sliu799@connect.hkust-gz.edu.cn'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: ''
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: ''
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: ''
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: www.linkedin.com/in/shuning-liu-9b8876291
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
