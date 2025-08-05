@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student
+role: PhD candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -52,10 +52,10 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Microelectronics
+    institution: HKUST(GZ)
+    date_start: 2024-09-01
+    date_end: 2027-06-01
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
