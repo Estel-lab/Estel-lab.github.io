@@ -1,7 +1,9 @@
 ---
 title: Blog
-summary: My courses
+summary: My Blogs
 type: landing
+
+view: card
 
 cascade:
   - _target:
