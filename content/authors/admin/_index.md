@@ -11,7 +11,7 @@ last_name: Liu
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🔬
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD candidate
+role: PhD Candidate in Microelectronics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -28,159 +28,178 @@ organizations:
     url: https://www.hkust-gz.edu.cn/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:sliu799@connect.hkust-gz.edu.cn'
+    url: 'mailto:liushuning211@mails.ucas.ac.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: ''
-  - icon: brands/instagram
-    url: ''
-  - icon: brands/github
-    url: ''
-  - icon: brands/linkedin
-    url: www.linkedin.com/in/shuning-liu-9b8876291
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
+    label: Google Scholar
   - icon: academicons/orcid
     url: https://orcid.org/
+    label: ORCID
+  - icon: brands/linkedin
+    url: www.linkedin.com/in/shuning-liu-9b8876291
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/Estel-lab
+    label: GitHub
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Infrared Photodetectors
+  - Avalanche Photodiodes (APDs)
+  - HgCdTe (MCT) Devices
+  - Monte Carlo Device Simulation
+  - Optoelectronic Logic Devices
+  - 2D Materials & Heterostructures
 
 education:
   - area: PhD Microelectronics
     institution: HKUST(GZ)
     date_start: 2024-09-01
-    date_end: 2027-06-01
+    date_end: 2027-09-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Research focus on narrow-bandgap semiconductor avalanche photodiodes, mesoscopic carrier transport, and device physics simulation. Supervised by Prof. Weida Hu.
+  - area: MEng Microelectronics and Solid State Electronics
+    institution: Shanghai Institute of Technical Physics, CAS
+    date_start: 2021-09-01
+    date_end: 2024-09-01
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Supervised by Prof. Weida Hu. Published 3 first-author/co-first-author papers in journals including Sci. China: Phys. Mech. Astron., Infrared Phys. Technol., Infrared Laser Eng. Co-authored 5+ papers in journals such as Nat. Photonics, IEEE J. Quantum Electron., Advanced Optical Materials. Co-first-author manuscript submitted to Nat. Comput. Sci. (under review).
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Courses: Frontiers of Semiconductor Physics, Intelligent Perception, Detection System Theory, Intelligent Sensor and Information Processing, Semiconductor Micro/Nano Processing.
+  - area: BSc Materials Science
+    institution: Shandong University
+    date_start: 2017-07-01
+    date_end: 2021-09-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses: Materials Physics, Materials Science Fundamentals, Quantum Mechanics, Solid State Physics, Advanced Mathematics.
+      
+      Thesis: Identification of Atomic Structures from Simulated STM Images via Template Matching.
+
+work:
+  - position: PhD Researcher
+    company_name: HKUST(GZ)
+    company_url: https://www.hkust-gz.edu.cn/
+    date_start: 2024-09-01
+    date_end: ''
+    summary: |
+      - Developing mesoscopic Monte Carlo simulation framework for narrow-bandgap semiconductor avalanche processes
+      - Investigating electric field sculpting strategies for ultra-low noise HgCdTe avalanche photodiodes
+      - Research on carrier transport dynamics and excess noise mechanisms in infrared APDs
+  - position: Graduate Researcher
+    company_name: Shanghai Institute of Technical Physics, CAS
+    company_url: ''
+    date_start: 2021-09-01
+    date_end: 2024-09-01
+    summary: |
+      - Built microscopic-mesoscopic Monte Carlo paradigm for HgCdTe e-APD excess noise analysis
+      - Improved sparse sampling algorithms for computational efficiency in device simulation
+      - Contributed to multiple infrared detector design and characterization projects
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming & Simulation
     items:
-      - name: Python
-        description: ''
-        percent: 80
+      - name: C/C++
+        description: 'Monte Carlo device simulation'
+        percent: 90
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
+      - name: Python
+        description: 'Data analysis & deep learning'
+        percent: 85
+        icon: code-bracket
+      - name: MATLAB
+        description: 'Scientific computing'
+        percent: 85
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
+      - name: SQLite
+        description: 'Database management for simulation data'
+        percent: 75
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: HPC & Infrastructure
+    color: '#3b82f6'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: MPI
+        description: 'Parallel computing'
         percent: 80
-        icon: camera
+        icon: server
+      - name: OpenMP
+        description: 'Shared-memory parallelization'
+        percent: 75
+        icon: server
+      - name: Deep Learning Frameworks
+        description: 'PyTorch, model training & deployment'
+        percent: 70
+        icon: cpu-chip
+  - name: Experimental Skills
+    color: '#10b981'
+    items:
+      - name: LabVIEW
+        description: 'Data acquisition & processing'
+        percent: 80
+        icon: signal
+      - name: Optical System Build
+        description: 'Optical path construction & alignment'
+        percent: 75
+        icon: light-bulb
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 85
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: Outstanding Graduate of UCAS
+    url: ''
+    date: '2024-06-01'
+    awarder: University of Chinese Academy of Sciences
+    icon: academic-cap
+    summary: ''
+  - title: Merit Student of UCAS
+    url: ''
+    date: '2024-06-01'
+    awarder: University of Chinese Academy of Sciences
+    icon: academic-cap
+    summary: ''
+  - title: Merit Student of UCAS
+    url: ''
+    date: '2023-06-01'
+    awarder: University of Chinese Academy of Sciences
+    icon: academic-cap
+    summary: ''
+  - title: Merit Student of UCAS
+    url: ''
+    date: '2022-06-01'
+    awarder: University of Chinese Academy of Sciences
+    icon: academic-cap
+    summary: ''
+  - title: Academic Scholarship (Second Class)
+    url: ''
+    date: '2019-06-01'
+    awarder: Shandong University
+    icon: academic-cap
+    summary: ''
+  - title: Outstanding Student Leader
+    url: ''
+    date: '2019-06-01'
+    awarder: Shandong University
+    icon: star
+    summary: ''
+  - title: Academic Scholarship (Second Class)
+    url: ''
+    date: '2018-06-01'
+    awarder: Shandong University
+    icon: academic-cap
+    summary: ''
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+刘书宁 (Shuning Liu) is a PhD candidate in Microelectronics at HKUST(GZ), with a Master's degree from the Shanghai Institute of Technical Physics, Chinese Academy of Sciences. His research focuses on infrared photodetectors, particularly narrow-bandgap semiconductor avalanche photodiodes (HgCdTe APDs), mesoscopic carrier transport dynamics, and device physics simulation.
+
+He has published multiple papers as first/co-first author in journals including *Science China: Physics, Mechanics & Astronomy*, *Infrared Physics & Technology*, and *Infrared and Laser Engineering*, and has co-authored papers in *Nature Photonics*, *IEEE Journal of Quantum Electronics*, *Advanced Optical Materials*, and *Optics Express*.
+
+His current work involves developing microscopic-mesoscopic Monte Carlo frameworks for understanding avalanche carrier dynamics and designing ultra-low-noise infrared photodetectors through electric field sculpting strategies.

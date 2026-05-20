@@ -11,8 +11,9 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Research Projects
+      text: |-
+        My projects span computational device physics, algorithm development, and device design optimization for next-generation infrared photodetectors.
       filters:
         folders:
           - project
