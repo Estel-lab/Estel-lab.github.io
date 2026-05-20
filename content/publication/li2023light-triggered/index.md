@@ -1,7 +1,7 @@
 ---
 title: "Light-Triggered and Polarity-Switchable Homojunctions for Optoelectronic Logic Devices"
 authors: [Kangjie Li, Ting He, Nan Guo, Tengfei Xu, Xiao Fu, Fang Wang, Hangyu Xu, Guohua Li, admin, Ke Deng, Yunlong Xiao, Jinshui Miao, Weida Hu]
-author_notes: [, , , , , , , , Co-author, , , , ]
+author_notes: ["", "", "", "", "", "", "", "", "Co-author", "", "", "", ""]
 date: "2023-04-01T00:00:00Z"
 doi: "10.1002/adom.202202379"
 publishDate: "2023-04-01T00:00:00Z"

@@ -1,7 +1,7 @@
 ---
 title: "On-chip optoelectronic logic gates operating in the telecom band"
 authors: [Ting He, Hui Ma, Zhen Wang, Qing Li, admin, Shikun Duan, Tengfei Xu, Jiacheng Wang, Haitao Wu, Fang Zhong, Yuting Ye, Jianghong Wu, Shuo Lin, Kun Zhang, Piotr Martyniuk, Antoni Rogalski, Peng Wang, Lan Li, Hongtao Lin, Weida Hu]
-author_notes: [, , , , Co-author, , , , , , , , , , , , , , , ]
+author_notes: ["", "", "", "", "Co-author", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 date: "2024-01-01T00:00:00Z"
 doi: "10.1038/s41566-023-01309-7"
 publishDate: "2024-01-01T00:00:00Z"

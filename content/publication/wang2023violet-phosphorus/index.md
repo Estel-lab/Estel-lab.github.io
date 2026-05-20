@@ -1,7 +1,7 @@
 ---
 title: "High-performance violet phosphorus photodetectors with van der Waals-assisted contacts"
 authors: [Hao Wang, admin, Peng Wang, Haonan Ge, Yue Chen, Hailu Wang, Tengfei Xu, Jiaxiang Guo, Yuanchen Zou, Wenrui Wei, Ruiqi Jiang, Fang Wang, Piotr Martyniuk, Jinshui Miao, Weida Hu]
-author_notes: [Equal contribution, Equal contribution, , , , , , , , , , , , , ]
+author_notes: ["Equal contribution", "Equal contribution", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 date: "2023-09-01T00:00:00Z"
 doi: "10.1007/s11433-023-2143-2"
 publishDate: "2023-09-01T00:00:00Z"

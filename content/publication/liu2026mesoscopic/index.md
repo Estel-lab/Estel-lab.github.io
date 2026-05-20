@@ -1,7 +1,7 @@
 ---
 title: "Mesoscopic behavior of single-carrier avalanche in narrow-bandgap semiconductors"
 authors: [admin, Runzhang Xie, Qianlong Kang, Haonan Ge, Min Luo, Anna Liu, Hao Xie, Lu Chen, Xiwen Liu, Qing Li, Weida Hu]
-author_notes: [First author, , , , , , , , , , ]
+author_notes: ["First author", "", "", "", "", "", "", "", "", "", ""]
 date: "2026-04-01T00:00:00Z"
 doi: "10.1109/TED.2026.3666174"
 publishDate: "2026-04-01T00:00:00Z"

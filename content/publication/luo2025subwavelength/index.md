@@ -1,7 +1,7 @@
 ---
 title: "Sub-wavelength optical modulation of step-size varying infrared photodetectors"
 authors: [Min Luo, Haonan Ge, admin, Runzhang Xie, Fang Zhong]
-author_notes: [, , Co-author, , ]
+author_notes: ["", "", "Co-author", "", ""]
 date: "2025-03-01T00:00:00Z"
 doi: "10.1016/j.infrared.2024.105668"
 publishDate: "2025-03-01T00:00:00Z"

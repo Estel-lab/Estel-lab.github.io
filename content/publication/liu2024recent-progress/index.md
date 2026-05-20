@@ -1,7 +1,7 @@
 ---
 title: "Recent progress of innovative infrared avalanche photodetectors"
 authors: [admin, Qi Han, Wenjin Luo, Wen Lei, Jun Zhao, Jun Wang, Yadong Jiang, Markus B. Raschke]
-author_notes: [First author, , , , , , , ]
+author_notes: ["First author", "", "", "", "", "", "", ""]
 date: "2024-03-01T00:00:00Z"
 doi: "10.1016/j.infrared.2023.105114"
 publishDate: "2024-03-01T00:00:00Z"

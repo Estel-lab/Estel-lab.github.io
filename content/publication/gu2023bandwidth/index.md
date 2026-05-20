@@ -1,7 +1,7 @@
 ---
 title: "Bandwidth Characteristics of Mid-Wavelength Infrared PIN HgCdTe Avalanche Photodiodes"
 authors: [Yue Gu, Runzhang Xie, Peng Wang, Qing Li, Yuanchen Zou, admin, Kun Zhang, Yang Wang, Hailu Wang, Fang Wang, Lu Chen, Weida Hu]
-author_notes: [, , , , , Co-author, , , , , , ]
+author_notes: ["", "", "", "", "", "Co-author", "", "", "", "", "", ""]
 date: "2023-04-01T00:00:00Z"
 doi: "10.1109/JQE.2023.3237242"
 publishDate: "2023-04-01T00:00:00Z"

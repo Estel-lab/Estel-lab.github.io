@@ -1,7 +1,7 @@
 ---
 title: "Infrared Photodetection from 2D/3D van der Waals Heterostructures"
 authors: [Qianying Tang, Fang Zhong, Qing Li, Jialu Weng, Junzhe Li, Hangyu Lu, Haitao Wu, admin, Jiacheng Wang, Ke Deng, Yunlong Xiao, Zhen Wang, Ting He]
-author_notes: [, , , , , , , Co-author, , , , , ]
+author_notes: ["", "", "", "", "", "", "", "Co-author", "", "", "", "", ""]
 date: "2023-01-01T00:00:00Z"
 doi: "10.3390/nano13071169"
 publishDate: "2023-01-01T00:00:00Z"

@@ -1,7 +1,7 @@
 ---
 title: "Research progress on local field characterization of mercury cadmium telluride infrared photodetectors (invited)"
 authors: [admin, Qianying Tang, Qing Li]
-author_notes: [First author, , ]
+author_notes: ["First author", "", ""]
 date: "2022-08-05T00:00:00Z"
 doi: "10.3788/IRLA20220277"
 publishDate: "2022-08-05T00:00:00Z"

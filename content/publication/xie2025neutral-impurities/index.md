@@ -1,7 +1,7 @@
 ---
 title: "Role of neutral impurities and non-parabolic dispersive electrons in HgCdTe avalanche photodiodes"
 authors: [Runzhang Xie, admin, Xun Ge, Haonan Ge, Min Luo, Anna Liu, Qianlong Kang, Chuan Shen, Hao Xie, Xiaohao Zhou, Xiwen Liu, Qing Li, Lu Chen, Weida Hu]
-author_notes: [, Co-author, , , , , , , , , , , , ]
+author_notes: ["", "Co-author", "", "", "", "", "", "", "", "", "", "", "", ""]
 date: "2025-04-15T00:00:00Z"
 doi: "10.1364/OL.554273"
 publishDate: "2025-04-15T00:00:00Z"

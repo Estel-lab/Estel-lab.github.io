@@ -1,7 +1,7 @@
 ---
 title: "Electric field sculpting in ultra-low noise HgCdTe avalanche photodiodes"
 authors: [Anna Liu, Wei Gao, Hao Xie, Chuan Shen, Qing Li, Hailu Wang, Runzhang Xie, Lu Chen, Piotr Martyniuk, Wen Lei, admin]
-author_notes: [, , , , , , , , , , Corresponding author]
+author_notes: ["", "", "", "", "", "", "", "", "", "", "Corresponding author"]
 date: "2026-06-01T00:00:00Z"
 doi: "10.1016/j.infrared.2026.106608"
 publishDate: "2026-06-01T00:00:00Z"
