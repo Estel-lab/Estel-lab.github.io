@@ -1,22 +1,32 @@
 # Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
-
-# Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  title: Shuning Liu
+  weight: 1
+  params:
+    description: 'Shuning Liu — PhD candidate in Microelectronics at HKUST(GZ). Research on infrared photodetectors, HgCdTe avalanche photodiodes, and mesoscopic carrier transport.'
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-CN
+  contentDir: content/zh
+  title: 刘书宁
+  weight: 2
+  params:
+    description: '刘书宁 — 香港科技大学（广州）微电子学博士研究生。研究方向：红外光电探测器、碲镉汞雪崩光电二极管、介观载流子输运。'
+  menu:
+    main:
+      - name: 个人简介
+        url: /
+        weight: 10
+      - name: 论文
+        url: /#papers
+        weight: 11
+      - name: 经历
+        url: experience/
+        weight: 20
+      - name: 项目
+        url: projects/
+        weight: 30
+      - name: 博客
+        url: blog/
+        weight: 40
