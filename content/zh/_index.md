@@ -60,4 +60,26 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    id: news
+    content:
+      title: 学术动态
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - post
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    id: talks
+    content:
+      title: 会议报告
+      filters:
+        folders:
+          - event
+    design:
+      view: article-grid
+      columns: 1
 ---

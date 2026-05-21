@@ -61,4 +61,26 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    id: news
+    content:
+      title: News
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - post
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    id: talks
+    content:
+      title: Talks
+      filters:
+        folders:
+          - event
+    design:
+      view: article-grid
+      columns: 1
 ---
