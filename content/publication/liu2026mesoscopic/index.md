@@ -12,7 +12,7 @@ abstract: "The mesoscopic stochasticity of single-carrier avalanche is the domin
 summary: "First-author paper presenting a micro-mesoscopic Monte Carlo framework for analyzing single-carrier avalanche dynamics in narrow-bandgap semiconductors. IEEE TED."
 tags: [Mesoscopic, Avalanche, Monte Carlo, HgCdTe, APD]
 featured: true
-url_pdf: "Mesoscopic behavior of single-carrier avalanche in narrow-bandgap semiconductors  Liu & Xie et al..pdf"
+url_pdf: "uploads/liu2026mesoscopic.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

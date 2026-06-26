@@ -1,5 +1,5 @@
 ---
-title: "Bandwidth Characteristics of Mid-Wavelength Infrared PIN HgCdTe Avalanche Photodiodes"
+title: "中波红外PIN碲镉汞雪崩光电二极管的带宽特性研究"
 authors: [Yue Gu, Runzhang Xie, Peng Wang, Qing Li, Yuanchen Zou, admin, Kun Zhang, Yang Wang, Hailu Wang, Fang Wang, Lu Chen, Weida Hu]
 author_notes: ["", "", "", "", "", "Co-author", "", "", "", "", "", ""]
 date: "2023-04-01T00:00:00Z"
@@ -8,9 +8,9 @@ publishDate: "2023-04-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "*IEEE Journal of Quantum Electronics*, **59**(2), 7-12"
 publication_short: ""
-abstract: "HgCdTe avalanche photodiodes are used in mid-wavelength infrared photoelectric detectors. A two-dimensional finite element model is used to analyze the carrier transport mechanism for different device structures and bias voltages. Structural optimization increases the device bandwidth from 27.1 MHz to 553 MHz."
-summary: "Bandwidth optimization of MWIR HgCdTe APDs using 2D finite element modeling. IEEE JQE (IF=2.5)."
-tags: [HgCdTe, APD, Bandwidth, MWIR]
+abstract: "碲镉汞雪崩光电二极管用于中波红外光电探测器。采用二维有限元模型分析了不同器件结构和偏压下的载流子输运机制。结构优化使器件带宽从27.1 MHz提高到553 MHz。"
+summary: "利用二维有限元模型对中波红外HgCdTe APD带宽进行优化。IEEE JQE (IF=2.5)。"
+tags: [HgCdTe, 雪崩光电二极管, 带宽, 中波红外]
 featured: false
 url_pdf: "uploads/gu2023bandwidth.pdf"
 url_code: ""

@@ -12,7 +12,7 @@ abstract: "Mercury cadmium telluride (HgCdTe) material is an important detection
 summary: "Review on local field characterization techniques for HgCdTe infrared photodetectors, covering scanning photocurrent microscopy and related methods."
 tags: [HgCdTe, Local Field, Scanning Photocurrent Microscopy]
 featured: true
-url_pdf: "刘 et al_2022_碲镉汞红外光电探测器局域场表征研究进展(特邀).pdf"
+url_pdf: "uploads/liu2022local-field.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

@@ -46,7 +46,7 @@ education:
     date_start: 2021-09-01
     date_end: 2024-09-01
     summary: |
-      导师：胡伟达研究员。在 Sci. China: Phys. Mech. Astron.、Infrared Phys. Technol.、Infrared Laser Eng. 等期刊以第一/共同第一作者发表论文3篇。在 Nat. Photonics、IEEE J. Quantum Electron.、Advanced Optical Materials 等期刊合作发表论文5篇以上。
+      导师：胡伟达研究员。在 Sci. China: Phys. Mech. Astron.、Infrared Phys. Technol.、Infrared Laser Eng. 等期刊以第一/共同第一作者发表论文3篇。在 Nat. Photonics、IEEE J. Quantum Electron.、Advanced Optical Materials 等期刊合作发表论文5篇以上。共同第一作者论文投稿至Nat. Comput. Sci.（审稿中）。
       
       课程：半导体物理前沿、智能感知、探测系统理论、智能传感器与信息处理、半导体微纳加工。
   - area: 材料科学与工程学士
@@ -126,39 +126,53 @@ languages:
     percent: 85
 awards:
   - title: 中国科学院大学优秀毕业生
+    url: ''
     date: '2024-06-01'
     awarder: 中国科学院大学
     icon: academic-cap
+    summary: ''
   - title: 中国科学院大学三好学生
+    url: ''
     date: '2024-06-01'
     awarder: 中国科学院大学
     icon: academic-cap
+    summary: ''
   - title: 中国科学院大学三好学生
+    url: ''
     date: '2023-06-01'
     awarder: 中国科学院大学
     icon: academic-cap
+    summary: ''
   - title: 中国科学院大学三好学生
+    url: ''
     date: '2022-06-01'
     awarder: 中国科学院大学
     icon: academic-cap
+    summary: ''
   - title: 学业奖学金（二等）
+    url: ''
     date: '2019-06-01'
     awarder: 山东大学
     icon: academic-cap
+    summary: ''
   - title: 优秀学生干部
+    url: ''
     date: '2019-06-01'
     awarder: 山东大学
     icon: star
+    summary: ''
   - title: 学业奖学金（二等）
+    url: ''
     date: '2018-06-01'
     awarder: 山东大学
     icon: academic-cap
+    summary: ''
 ---
 
 ## 关于我
 
 刘书宁，香港科技大学（广州）微电子学博士研究生，拥有中国科学院上海技术物理研究所硕士学位。研究方向为红外光电探测器，尤其是窄带隙半导体雪崩光电二极管（HgCdTe APD）、介观载流子输运动力学及器件物理仿真。
 
-以第一/共同第一作者在 *Science China: Physics, Mechanics & Astronomy*、*Infrared Physics & Technology*、*Infrared and Laser Engineering* 等期刊发表多篇论文，并在 *Nature Photonics*、*IEEE Journal of Quantum Electronics*、*Advanced Optical Materials*、*Optics Express* 等期刊合作发表论文。
+以第一/共同第一作者在 *Science China: Physics, Mechanics & Astronomy*、*Infrared Physics & Technology*、*Infrared and Laser Engineering* 等期刊发表多篇论文。2026年以第一作者在 *IEEE Transactions on Electron Devices* 发表介观载流子输运研究论文，以通讯作者在 *Infrared Physics & Technology* 发表电场调控研究论文。并在 *Nature Photonics*、*IEEE Journal of Quantum Electronics*、*Optics Letters*、*Advanced Optical Materials*、*Optics Express* 等期刊合作发表论文，包括2025年合作发表在 *Optics Letters* 与 *Infrared Physics & Technology* 上的工作。
 
 当前主要从事微观-介观蒙特卡洛框架的开发，用于理解雪崩载流子动力学，并通过电场调控策略设计超低噪声红外光电探测器。
