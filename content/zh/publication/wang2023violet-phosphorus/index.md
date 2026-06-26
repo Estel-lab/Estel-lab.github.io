@@ -21,8 +21,8 @@ url_slides: ""
 url_source: ""
 url_video: ""
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Featured figure"
+  focal_point: "Smart"
   preview_only: false
 projects: []
 ---
