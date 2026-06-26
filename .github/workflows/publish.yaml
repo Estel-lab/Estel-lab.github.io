@@ -4,13 +4,12 @@ env:
   WC_HUGO_VERSION: '0.136.5'
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -21,36 +20,42 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build website
   build:
     if: github.repository_owner != 'HugoBlox'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
-    - uses: actions/cache@v3
+    - uses: actions/cache@v4
       with:
         path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+        key: ${{ runner.os }}-hugomod-v3-${{ hashFiles('**/go.mod') }}
         restore-keys: |
-          ${{ runner.os }}-hugomod-
+          ${{ runner.os }}-hugomod-v3-
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
+        HUGO_NUMWORKERMULTIPLIER: 1
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        # Retry up to 3 times — Hugo 0.136.x has intermittent deferred template race
+        for i in 1 2 3; do
+          hugo --baseURL "${{ steps.pages.outputs.base_url }}/" && exit 0
+          echo "Build attempt $i failed, retrying..."
+          rm -rf public resources .hugo_build.lock
+        done
+        echo "Build failed after 3 attempts"
+        exit 1
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
     - name: Upload artifact
@@ -58,13 +63,12 @@ jobs:
       with:
         path: ./public
 
-  # Deploy website to GitHub Pages hosting
   deploy:
-    if: github.repository_owner != 'HugoBlox'
+    if: github.repository_owner != 'HugoBlox' && github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     steps:
     - name: Deploy to GitHub Pages
