@@ -34,5 +34,5 @@ zh:
         url: projects/
         weight: 30
       - name: 博客
-        url: blog/
+        url: post/
         weight: 40
