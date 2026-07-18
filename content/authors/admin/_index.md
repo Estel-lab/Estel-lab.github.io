@@ -39,7 +39,7 @@ profiles:
     url: https://orcid.org/
     label: ORCID
   - icon: brands/linkedin
-    url: www.linkedin.com/in/shuning-liu-9b8876291
+    url: https://www.linkedin.com/in/shuning-liu-9b8876291
     label: LinkedIn
   - icon: brands/github
     url: https://github.com/Estel-lab
