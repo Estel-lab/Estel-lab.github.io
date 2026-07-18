@@ -21,6 +21,12 @@ zh:
       - name: 论文
         url: /#papers
         weight: 11
+      - name: 学术动态
+        url: /#news
+        weight: 12
+      - name: 会议报告
+        url: /#talks
+        weight: 13
       - name: 经历
         url: experience/
         weight: 20
