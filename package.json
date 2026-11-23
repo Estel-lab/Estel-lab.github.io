@@ -1,0 +1,14 @@
+{
+  "name": "estel-lab-academic-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build tooling for Shuning Liu's academic website",
+  "scripts": {
+    "build": "hugo --minify",
+    "pagefind": "pagefind --site public",
+    "build:search": "npm run build && npm run pagefind"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  }
+}
