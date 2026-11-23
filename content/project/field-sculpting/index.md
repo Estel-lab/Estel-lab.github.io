@@ -9,12 +9,12 @@ tags:
   - Electric Field Engineering
 ---
 
-A design methodology for ultra-low-noise HgCdTe avalanche photodiodes through systematic electric field sculpting.
+A systematic electric field sculpting methodology for designing ultra-low-noise, multi-GHz HgCdTe avalanche photodiodes.
 
-- Multi-dimensional trade-off analysis (temporal response, tunneling dark current, noise factor)
-- Optimal structure design with full depletion and gentle electrostatic gradients
-- Suppression of band-to-band tunneling noise through carrier dynamics regulation
+- Quantifies how doping differentials across p/i/n⁺ functional zones and multiplication-region width affect gain variance, tunneling dark current, and frequency response
+- Reveals how abrupt local fields trigger polar optical phonon (POP) emission and inflate macroscopic excess noise
+- Architects a fully depleted structure with gentle electrostatic gradients, suppressing tunneling dark current by over an order of magnitude (>10×) while pushing bandwidth into the multi-GHz regime via saturated drift velocity
 
-This work establishes a theoretical foundation for next-generation high-bandwidth infrared photonic sensors.
+Published in *Infrared Physics & Technology* (Vol. 156, 106608, 2026).
 
 <!--more-->

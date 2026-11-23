@@ -31,11 +31,11 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |-
-        I am a PhD candidate in Microelectronics at HKUST(GZ), working on next-generation infrared photodetectors. My research centers on understanding and engineering avalanche carrier dynamics in narrow-bandgap semiconductors, particularly HgCdTe, through multi-scale simulation approaches.
+        I am a PhD candidate in Microelectronics at HKUST(GZ), working on next-generation infrared photodetectors and single-photon characterization. My research centers on understanding and engineering avalanche carrier dynamics in narrow-bandgap semiconductors (particularly HgCdTe) through multi-scale simulation and experimental optics.
 
-        I develop **microscopic-mesoscopic Monte Carlo frameworks** to bridge first-principles carrier scattering with macroscopic device performance. My work aims at designing **ultra-low-noise, high-bandwidth infrared avalanche photodiodes** through electric field sculpting and mesoscopic dynamics regulation.
-
-        I am also interested in 2D-material-based optoelectronic devices, on-chip optical logic gates, and the intersection of computational physics with experimental device design.
+        - **Microscopic–Mesoscopic Device Simulation**: Developing custom C++ Monte Carlo frameworks coupled with TCAD/multiphysics modeling to bridge carrier scattering physics with macroscopic device performance—enabling **ultra-low-noise, high-bandwidth HgCdTe APDs** via electric field sculpting and acceleration meso-lattice (AML) regulation.
+        - **Quantum Optics & SPDC Experiments**: Building and aligning a 405 nm pumped Type-II PPKTP polarization-entangled Sagnac photon-pair source with Time Tagger coincidence counting for photon-level characterization.
+        - **Computational Optics & Novel Optoelectronics**: Exploring sparse sampling algorithms for wavefield reconstruction, 2D-material van der Waals contacts, and on-chip optoelectronic devices.
 
         Please reach out to collaborate 😃
     design:

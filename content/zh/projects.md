@@ -11,12 +11,12 @@ sections:
     content:
       title: 研究项目
       text: |-
-        我的项目涵盖计算器件物理学、算法开发和下一代红外光电探测器的器件设计优化。
+        我的研究项目涵盖计算器件物理、多尺度半导体仿真、量子光学 SPDC 实验以及波场稀疏采样重建算法。
       filters:
         folders:
           - project
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
 ---

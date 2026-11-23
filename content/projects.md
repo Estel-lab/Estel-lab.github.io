@@ -13,12 +13,12 @@ sections:
     content:
       title: Research Projects
       text: |-
-        My projects span computational device physics, algorithm development, and device design optimization for next-generation infrared photodetectors.
+        My projects span computational device physics, multi-scale semiconductor simulation, quantum-optics SPDC experiments, and wavefield reconstruction algorithms.
       filters:
         folders:
           - project
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
 ---
